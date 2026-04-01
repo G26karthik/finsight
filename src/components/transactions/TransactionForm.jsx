@@ -134,3 +134,4 @@ export default function TransactionForm({ initial, onSubmit, onCancel }) {
     </form>
   );
 }
+

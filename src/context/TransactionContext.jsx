@@ -125,3 +125,4 @@ export function useTransactions() {
   if (!ctx) throw new Error('useTransactions must be used within TransactionProvider');
   return ctx;
 }
+

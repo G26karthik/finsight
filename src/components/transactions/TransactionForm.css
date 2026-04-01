@@ -63,3 +63,4 @@
 @media (max-width: 480px) {
   .txn-form__row { grid-template-columns: 1fr; }
 }
+

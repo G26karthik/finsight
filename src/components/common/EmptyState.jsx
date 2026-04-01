@@ -17,3 +17,4 @@ export default function EmptyState({ title = 'No data yet', message, action, onA
     </div>
   );
 }
+

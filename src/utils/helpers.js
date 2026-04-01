@@ -35,3 +35,4 @@ export function exportToCSV(transactions) {
     .join('\n');
   downloadFile(headers + rows, 'transactions.csv', 'text/csv');
 }
+

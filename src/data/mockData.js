@@ -133,3 +133,4 @@ function generateTransactions() {
 }
 
 export const mockTransactions = generateTransactions();
+
