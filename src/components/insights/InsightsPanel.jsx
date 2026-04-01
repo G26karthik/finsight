@@ -4,7 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { TrendingUp, TrendingDown, DollarSign, ArrowUpRight, PieChart, Hash, Zap } from 'lucide-react';
 import { useTransactions } from '../../context/TransactionContext';
 import { getCategoryInfo } from '../../data/mockData';
-import { formatCurrency, formatMonth } from '../../utils/helpers';
+import { formatCurrency } from '../../utils/helpers';
 import EmptyState from '../common/EmptyState';
 import { subMonths, format } from 'date-fns';
 import './InsightsPanel.css';

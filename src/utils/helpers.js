@@ -13,18 +13,6 @@ export function formatDate(dateStr) {
   return format(parseISO(dateStr), 'dd MMM yyyy');
 }
 
-export function formatDateShort(dateStr) {
-  return format(parseISO(dateStr), 'dd MMM');
-}
-
-export function formatMonth(dateStr) {
-  return format(parseISO(dateStr), 'MMM yyyy');
-}
-
-export function formatPercent(value) {
-  return `${value >= 0 ? '+' : ''}${value.toFixed(1)}%`;
-}
-
 export function downloadFile(data, filename, type = 'application/json') {
   const blob = new Blob([data], { type });
   const url = URL.createObjectURL(blob);
