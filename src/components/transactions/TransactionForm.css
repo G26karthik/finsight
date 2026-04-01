@@ -1,0 +1,65 @@
+.txn-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.txn-form__type-toggle {
+  display: flex;
+  background: var(--bg-input);
+  padding: 3px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.txn-form__type-btn {
+  flex: 1;
+  padding: var(--space-2) var(--space-4);
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.txn-form__type-btn--expense {
+  background: var(--accent-red-soft);
+  color: var(--accent-red);
+  box-shadow: var(--shadow-sm);
+}
+
+.txn-form__type-btn--income {
+  background: var(--accent-green-soft);
+  color: var(--accent-green);
+  box-shadow: var(--shadow-sm);
+}
+
+.txn-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.txn-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.input--error {
+  border-color: var(--accent-red) !important;
+}
+
+.field-error {
+  font-size: 0.75rem;
+  color: var(--accent-red);
+  margin-top: 2px;
+}
+
+@media (max-width: 480px) {
+  .txn-form__row { grid-template-columns: 1fr; }
+}
