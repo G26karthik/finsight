@@ -6,7 +6,7 @@ A clean, interactive, professional-grade finance dashboard for tracking financia
 
 ## 🚀 Live Demo
 
-🔗 **[View Live on Vercel](#)** *(Update after deployment)*
+🔗 **[View Live on Vercel](https://finsight-iota-one.vercel.app/)**
 
 ---
 
